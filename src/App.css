@@ -1,0 +1,62 @@
+.App {
+  background-color: #00203FFF;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.logo {
+  box-shadow: #105435;
+  align-self: center;
+  border-bottom: 20px;
+  width: 100%;
+}
+.container {
+  margin-left: 5%;
+}
+.card {
+  /* box-shadow: #105435; */
+  margin-top: 5%;
+  border-color: cyan;
+  border-width: 10px;
+  margin: 150px;
+}
+
+.row {
+  display:flex;
+  justify-content: center;
+}
+
+
+.card-body {
+  background-color: #00203FFF;
+}
+
+.col {
+  color: #00203FFF;
+  background-color: #ADEFD1FF;
+  font-size: 20px;
+  padding: 30px;
+  font-weight: bold;
+}
+
+.headerName {
+  text-align: left;
+  padding-left: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.App-header {
+  display: flex;
+  width: 100%;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+}
+
+.App-link {
+  color: white;
+}
